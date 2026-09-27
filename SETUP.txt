@@ -1,0 +1,10 @@
+GITHUB SETUP
+============
+1. Create a new PUBLIC GitHub repository.
+2. Upload index.html and README.md from this folder to the repository root.
+3. On GitHub choose Add file -> Create new file.
+4. In the filename box enter: .github/workflows/build-apk.yml
+5. Paste the workflow from the separate build-apk.yml file supplied with this package.
+6. Commit the workflow file.
+7. Open Actions -> Build POSB Nagpur Viewer APK -> Run workflow.
+8. Download the APK from Artifacts.
